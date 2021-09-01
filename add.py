@@ -92,7 +92,7 @@ for a in accounts:
     for z in banned:
         accounts.remove(z)
         print(info+lg+' Banned account removed[Remove permanently using manager.py]'+rs)
-    time.sleep(0.5)
+    time.sleep(8)
     clnt.disconnect()
 
 
